@@ -1,5 +1,3 @@
-declare module 'stylelint-prettier/recommended' {}
-
 declare module '*.css' {
   const content: string;
   export default content;
