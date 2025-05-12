@@ -21,7 +21,7 @@ const RootLayout: React.FC<RootLayoutProps> = (props) => {
   const { children } = props;
 
   return (
-    <html lang="en">
+    <html lang='en'>
       <body className={`${vazirmatn.className}`}>
         <AppProvider>{children}</AppProvider>
       </body>
