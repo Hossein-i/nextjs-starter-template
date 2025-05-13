@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import { Vazirmatn } from 'next/font/google';
 import React from 'react';
 
-import { AppProvider } from '@/shared/providers';
-import '@/shared/styles';
+import { AppProvider } from './_providers';
+import './_styles';
 
 const vazirmatn = Vazirmatn({
   subsets: ['latin'],
